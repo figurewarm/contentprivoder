@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="left"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/eng"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:maxLines="1"
+        android:hint="请输入英文"
+        />
+
+    <EditText
+        android:id="@+id/chn"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:maxLines="1"
+        android:hint="请输入中文"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <Button
+            android:id="@+id/addWord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="添加" />
+
+        <Button
+            android:id="@+id/queryWord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查询" />
+
+        <Button
+            android:id="@+id/updateWord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="更改" />
+
+        <Button
+            android:id="@+id/deleteWord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="删除" />
+    </LinearLayout>
+
+</LinearLayout>
